@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todo.css" />
+    <script src="todo.js" defer></script>
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <section class="todo">
+      <h2>To-Do App</h2>
+      <div class="input">
+        <input type="text" id="todoInput" class="input-field" placeholder="Add a new task" />
+        <button class="btn" id="addButton">Add</button>
+      </div>
+      <ul class="scroll" id="todoList"></ul>
+      <div>
+        <hr class="counter" />
+        <div class="counter-container">
+          <p><span id="todoCount">0</span> items total</p>
+          <button id="deleteButton">Delete All</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
